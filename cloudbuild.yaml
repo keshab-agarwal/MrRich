@@ -1,12 +1,7 @@
-steps:
-  # Install dependencies
-  - name: python
-    entrypoint: pip
-    args: ["install", "-r", "requirements.txt", "--user"]
-
-- 
-  args: 
-    - app
-    - deploy
-  name: gcr.io/cloud-builders/gcloud
+steps: 
+  - 
+    args: 
+      - app
+      - deploy
+    name: gcr.io/cloud-builders/gcloud
 timeout: 1600s
