@@ -4,7 +4,7 @@ steps:
     entrypoint: pip
     args: ["install", "-r", "requirements.txt", "--user"]
 
-  - name: python
-    entrypoint: python
-    args: ["main.py"]
+  # - name: python
+  #   entrypoint: python
+  #   args: ["main.py"]
     
