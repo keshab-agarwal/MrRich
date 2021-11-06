@@ -4,7 +4,9 @@ steps:
     entrypoint: pip
     args: ["install", "-r", "requirements.txt", "--user"]
 
-  # - name: python
-  #   entrypoint: python
-  #   args: ["main.py"]
-    
+- 
+  args: 
+    - app
+    - deploy
+  name: gcr.io/cloud-builders/gcloud
+timeout: 1600s
