@@ -1,0 +1,9 @@
+.template_upper {
+    display: flex;
+    align-items: center;
+}
+
+.template_logo {
+    width: 60px;
+    height: 60px;
+}
