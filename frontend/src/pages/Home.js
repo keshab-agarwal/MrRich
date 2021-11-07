@@ -50,9 +50,9 @@ function Home() {
                         <li>Amazon(AMZN)</li>
                     </ul>
                     <ul>
-                        <li>Metaverse (FB)</li>
-                        <li>Sony (SONY)</li>
-                        <li>Google (GOOG)</li>
+                        <li>Metaverse(FB)</li>
+                        <li>Sony(SONY)</li>
+                        <li>Google(GOOG)</li>
                     </ul>
                 </div>
             </div>
